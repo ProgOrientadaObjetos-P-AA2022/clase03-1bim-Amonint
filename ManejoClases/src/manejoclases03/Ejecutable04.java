@@ -17,9 +17,9 @@ public class Ejecutable04 {
         Hospital h2 = new Hospital();
         Hospital h3 = new Hospital();
         
-        double valor1 = 10000;
-        double valor2 = 20000;
-        double valor3 = 30000;
+        double valor1 = 2.99;
+        double valor2 = 4.33;
+        double valor3 = 6.00;
         
         h1.establecerPresupuesto(valor1);
         h2.establecerPresupuesto(valor2);
@@ -28,7 +28,7 @@ public class Ejecutable04 {
         double suma = h1.obtenerPresupuesto() + h2.obtenerPresupuesto() +
                 h3.obtenerPresupuesto();
         
-        System.out.printf("La suma de presupuestos es %.2f\n", suma);
+        System.out.printf("La suma de camas es %.2f\n", suma);
         
         
     }
